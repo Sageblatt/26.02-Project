@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(26_02_Project
-        main.cpp Material.h Gas.h Fluid.h Solid.h Metal.h NonMetal.h)
+        main.cpp Material.h Gas.h Fluid.h Solid.h Metal.h NonMetal.h Metal.cpp)

@@ -7,7 +7,7 @@ class Solid: public Material{
 public:
     float Heat(float a, float b, float c, float dT); // Heating a parallelepiped with given dimensions
     float Deformation(float Tension); // Longitudinal deformation of a rod with given Tension
-private:
+protected:
     float YoungsModulus;
     float PoissonsRatio;
 };

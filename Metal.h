@@ -5,8 +5,9 @@
 
 class Metal: public Solid{
 public:
-    float Resistance(float S, float length); // Resistance of a wire with given length and profile's area
-private:
+    Metal();
+    float Resistance(float Area, float Length); // Resistance of a wire with given length and profile's area
+protected:
     float ElectricalResistivity;
 };
 
