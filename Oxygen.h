@@ -3,7 +3,7 @@
 
 #include "Gas.h"
 
-class Oxygen: public gas{
+class Oxygen: public Gas{
 public:
     Oxygen();
 };
