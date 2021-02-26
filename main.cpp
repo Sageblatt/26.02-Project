@@ -6,7 +6,7 @@ using std::endl;
 
 int main()
 {
-    Hydrogen part1;
+    WaterVapour part1;
     Oxygen part2;
     Hydrogen part3;
     NewGas part4(100, 5, 30);
@@ -16,7 +16,11 @@ int main()
     storage[2] = part3;
     storage[3] = part4;
     for(int i = 0; i < 4; i++) {
-        cout << storage[i].GetMass(1) << endl;
+        cout << "Mass" << i << " " << storage[i].GetMass(1) << endl;
+        cout << "Heat" << i << " " << storage[i].Heat(3, 5) << endl;
+        cout << "HeatP" << i << " " << storage[i].HeatP(3, 5) << endl;
+        storage[i].ChangeDensity(0.006);
     }
+
     return 0;
 }
