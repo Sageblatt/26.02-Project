@@ -4,6 +4,7 @@
 #include "Fluid.h"
 
 class LiquidNitrogen: public Fluid{
+public:
     LiquidNitrogen();
 };
 

@@ -5,6 +5,7 @@
 
 class Gas: public Material{
 public:
+    Gas();
     float Heat(float CubeHeight, float dT) override; // Heating a cube with edge CubeHeight of gas for dT with V=const
     float HeatP(float CubeHeight, float dT); // Heating with P=const
     float GetMass(float a) override; // Mass of cube with given height

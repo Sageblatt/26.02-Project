@@ -1,5 +1,8 @@
 #include "Gas.h"
 
+Gas::Gas(){
+    this->Cp = 0;
+}
 float Gas::Heat(float CubeHeight, float dT) {
     return (CubeHeight * CubeHeight * CubeHeight / 22.4) * HeatCapacity * dT;
 }

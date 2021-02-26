@@ -5,6 +5,7 @@
 #include "Fluid.h"
 
 class Water: public Fluid{
+public:
     Water();
 };
 #endif

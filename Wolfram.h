@@ -4,6 +4,7 @@
 #include "Metal.h"
 
 class Wolfram: public Metal{
+public:
     Wolfram();
 };
 

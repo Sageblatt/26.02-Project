@@ -4,6 +4,7 @@
 #include "Fluid.h"
 
 class HydrochloridAcid: public Fluid{
+public:
     HydrochloridAcid();
 };
 #endif

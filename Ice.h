@@ -4,6 +4,7 @@
 #include "NonMetal.h"
 
 class Ice: public NonMetal{
+public:
     Ice();
 };
 #endif

@@ -4,6 +4,8 @@
 #include "Metal.h"
 
 class NewMetal: public Metal{
+public:
     NewMetal(float dens, float resist, float heat, float youngs);
 };
+
 #endif

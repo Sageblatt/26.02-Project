@@ -4,6 +4,7 @@
 #include "Gas.h"
 
 class Hydrogen: public Gas{
+public:
     Hydrogen();
 };
 

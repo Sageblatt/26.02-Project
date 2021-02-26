@@ -4,6 +4,7 @@
 #include "Fluid.h"
 
 class NewLiquid: public Fluid{
+public:
     NewLiquid(float dens, float heat);
 };
 

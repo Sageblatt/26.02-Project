@@ -4,7 +4,8 @@
 #include "Metal.h"
 
 class Iron: public Metal{
+public:
     Iron();
 };
 
-#endif IRON_H
+#endif

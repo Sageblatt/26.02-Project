@@ -4,6 +4,7 @@
 #include "Fluid.h"
 
 class MeltedTin: public Fluid{
+public:
     MeltedTin();
 };
 #endif
